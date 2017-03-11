@@ -21,6 +21,17 @@ show that our method outperforms the prior state-of-the-art
 methods in predicting visual attention on faces in multipleface
 videos*
 
+## MUVFET
+**MUltiple-Face Videos with Eye Tracking fixations (MUFVET)**. All videos in MUFVET
+are with either indoor or outdoor scenes, selected from Youtube
+and Youku, and they are all encoded by H.264 with
+duration varying from 10-20 seconds. Besides, MUFVET
+includes two datasets – MUFVET-I and MUFVET-II. These
+two datasets are comprised by two non-overlapping groups
+of videos, each of which is viewed by totally different subjects.
+
+We think both training and test utilize the fixations of same subjects are not rationale in existing saliency prediction works, despite videos being different. So MUFVET-I is seen as the benchmark for test, while MUFVET-II is used for training.
+
 ## Experiments
 | Method | Network | Training Data | Testing Data | Reference | Result |
 | :----- | :------ | :------------ | :----------- | :-------: | :----: |

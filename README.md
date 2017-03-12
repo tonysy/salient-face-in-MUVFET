@@ -34,6 +34,14 @@ of videos, each of which is viewed by totally different subjects.
 
 We think both training and test utilize the fixations of same subjects are not rationale in existing saliency prediction works, despite videos being different. So MUFVET-I is seen as the benchmark for test, while MUFVET-II is used for training.
 
+## Requirements
+
+- Tensorflow
+- Keras
+- Matlab
+- Python 2.7
+
+
 ## Experiments
 
 |     | *Our* | *GT*   | *Xu et al.* | *Jiang et al.* | *GBVS* | *Rudoy et al.* | *PQFT* | *Surprise* | *OBDL* |

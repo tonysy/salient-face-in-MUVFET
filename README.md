@@ -35,14 +35,6 @@ of videos, each of which is viewed by totally different subjects.
 We think both training and test utilize the fixations of same subjects are not rationale in existing saliency prediction works, despite videos being different. So MUFVET-I is seen as the benchmark for test, while MUFVET-II is used for training.
 
 ## Experiments
-| Method | Network | Training Data | Testing Data | Reference | Result |
-| :----- | :------ | :------------ | :----------- | :-------: | :----: |
-| Fast R-CNN | VGG16 | VOC07 | VOC07test | 66.9 | 66.50 |
-| Fast R-CNN | VGG16 | VOC07 | VOC07test | 66.9 | 66.50 |
-| Fast R-CNN | VGG16 | VOC07 | VOC07test | 66.9 | 66.50 |
-| Fast R-CNN | VGG16 | VOC07 | VOC07test | 66.9 | 66.50 |
-| Fast R-CNN | VGG16 | VOC07 | VOC07test | 66.9 | 66.50 |
-| Fast R-CNN | VGG16 | VOC07 | VOC07test | 66.9 | 66.50 |
 
 |     | *Our* | *GT*   | *Xu et al.* | *Jiang et al.* | *GBVS* | *Rudoy et al.* | *PQFT* | *Surprise* | *OBDL* |
 | :-- | :--: | :---: | :--------: | :--------: | :-----: | :----: |:----: |:----: |:----: |

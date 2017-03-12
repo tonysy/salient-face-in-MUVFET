@@ -44,7 +44,7 @@ We think both training and test utilize the fixations of same subjects are not r
 | Fast R-CNN | VGG16 | VOC07 | VOC07test | 66.9 | 66.50 |
 | Fast R-CNN | VGG16 | VOC07 | VOC07test | 66.9 | 66.50 |
 
-|     | Our | GT   | Xu et al. | Jiang et al. | GBVS | Rudoy et al. | PQFT | Surprise | OBDL |
+|     | *Our* | *GT*   | *Xu et al.* | *Jiang et al.* | *GBVS* | *Rudoy et al.* | *PQFT* | *Surprise* | *OBDL* |
 | :-- | :--: | :---: | :--------: | :--------: | :-----: | :----: |:----: |:----: |:----: |
 | NSS | **4.12** | 4.21 | 3.14 | 0.97 | 1.23 | 1.42 | 0.88 | 0.88 | 1.62
 | CC  | **0.74** | 0.77 | 0.61 | 0.29 | 0.33 | 0.36 | 0.22 | 0.21 | 0.30

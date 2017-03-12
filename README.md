@@ -24,7 +24,7 @@ videos*
 ## MUVFET-Dataset
 ![Video_class](./Video_class.png)
 
-**MUltiple-Face Videos with Eye Tracking fixations (MUFVET)**. All videos in MUFVET
+**Multiple-Face Videos with Eye Tracking fixations (MUFVET)**. All videos in MUFVET
 are with either indoor or outdoor scenes, selected from Youtube
 and Youku, and they are all encoded by H.264 with
 duration varying from 10-20 seconds. Besides, MUFVET

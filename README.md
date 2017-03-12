@@ -21,7 +21,7 @@ show that our method outperforms the prior state-of-the-art
 methods in predicting visual attention on faces in multipleface
 videos*
 
-## MUVFET
+## MUVFET-Dataset
 ![Video_class](./Video_class.png)
 
 **MUltiple-Face Videos with Eye Tracking fixations (MUFVET)**. All videos in MUFVET
@@ -43,3 +43,21 @@ We think both training and test utilize the fixations of same subjects are not r
 | Fast R-CNN | VGG16 | VOC07 | VOC07test | 66.9 | 66.50 |
 | Fast R-CNN | VGG16 | VOC07 | VOC07test | 66.9 | 66.50 |
 | Fast R-CNN | VGG16 | VOC07 | VOC07test | 66.9 | 66.50 |
+
+$$
+\begin{table*}
+  %\scriptsize
+  \centering
+  \caption{Accuracy of saliency prediction by our and other 7 methods, averaged over all test videos of 5-fold cross validation.}
+    \begin{tabular}{cccccccccc}
+    \toprule
+          \hspace{-0.8em}&\hspace{-0.8em}Our\hspace{-0.8em}&\hspace{-0.8em} GT \hspace{-0.8em}&\hspace{-0.8em}Xu \textit{et al.}\cite{Xu_2015_ICCV}\hspace{-0.8em}&\hspace{-0.8em}Jiang \textit{et al.}\cite{jiang2014saliency}\hspace{-0.8em}&\hspace{-0.8em}GBVS\cite{harel2006graph}\hspace{-0.8em}&\hspace{-0.8em}Rudoy \textit{et al.}\cite{rudoy2013learning}\hspace{-0.8em}&\hspace{-0.8em}PQFT\cite{guo2010novel}\hspace{-0.8em}&\hspace{-0.8em}Surprise\cite{itti2009bayesian}\hspace{-0.8em}&\hspace{-0.8em}OBDL\cite{hossein2015many}\hspace{-0.8em}\\
+    \midrule
+    %AUC\hspace{-0.8em}&\hspace{-0.8em}\textbf{0.90}\hspace{-0.8em}&\hspace{-0.8em}0.90\hspace{-0.8em}&\hspace{-0.8em}3.14\hspace{-0.8em}&\hspace{-0.8em}0.97\hspace{-0.8em}&\hspace{-0.8em}1.23\hspace{-0.8em}&\hspace{-0.8em}1.42\hspace{-0.8em}&\hspace{-0.8em}0.88\hspace{-0.8em}&\hspace{-0.8em}0.88\hspace{-0.8em}&\hspace{-0.8em}1.62\hspace{-0.8em}\\
+    NSS\hspace{-0.8em}&\hspace{-0.8em}\textbf{4.12}\hspace{-0.8em}&\hspace{-0.8em}4.21\hspace{-0.8em}&\hspace{-0.8em}3.14\hspace{-0.8em}&\hspace{-0.8em}0.97\hspace{-0.8em}&\hspace{-0.8em}1.23\hspace{-0.8em}&\hspace{-0.8em}1.42\hspace{-0.8em}&\hspace{-0.8em}0.88\hspace{-0.8em}&\hspace{-0.8em}0.88\hspace{-0.8em}&\hspace{-0.8em}1.62\hspace{-0.8em}\\
+    CC\hspace{-0.8em}&\hspace{-0.8em}\textbf{0.74}\hspace{-0.8em}&\hspace{-0.8em}0.77\hspace{-0.8em}&\hspace{-0.8em}0.61\hspace{-0.8em}&\hspace{-0.8em}0.29\hspace{-0.8em}&\hspace{-0.8em}0.33\hspace{-0.8em}&\hspace{-0.8em}0.36\hspace{-0.8em}&\hspace{-0.8em}0.22\hspace{-0.8em}&\hspace{-0.8em}0.21\hspace{-0.8em}&\hspace{-0.8em}0.30\hspace{-0.8em}\\
+    \bottomrule
+    \end{tabular}%
+  \label{saliency_accuracy}%
+\end{table*}%
+$$

@@ -22,7 +22,7 @@ methods in predicting visual attention on faces in multipleface
 videos*
 
 ## MUVFET-Dataset
-![Video_class](./Video_class.png)
+![Video_class](./src/img/Video_class.png)
 
 **Multiple-Face Videos with Eye Tracking fixations (MUFVET)**. All videos in MUFVET
 are with either indoor or outdoor scenes, selected from Youtube
@@ -42,13 +42,7 @@ We think both training and test utilize the fixations of same subjects are not r
 - Python 2.7
 
 ## Pipeline
-```graphLR
-    A[Image] -->B(Face Detector)
-    B --> C[CNN]
-    C --> D[M-LSTM]
-    D --> E(PostProcessing)
-    E --> F[saliency map]
-```
+![Video_class](./src/img/pipeline.png)
 
 ## Experiments
 

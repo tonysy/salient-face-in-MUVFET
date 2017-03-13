@@ -1,20 +1,13 @@
 
 COPYRIGHT
 
-All contributions by the University of California:
-Copyright (c) 2014-2017 The Regents of the University of California (Regents)
+All contributions by the Beihang University:
+Copyright (c) 2016-2017 The Regents of the Beihang University (Regents)
 All rights reserved.
 
 All other contributions:
-Copyright (c) 2014-2017, the respective contributors
+Copyright (c) 2016-2017, the respective contributors
 All rights reserved.
-
-Caffe uses a shared copyright model: each contributor holds copyright over
-their contributions to Caffe. The project versioning records all such
-contribution and copyright details. If a contributor wants to further mark
-their specific copyright on a particular contribution, they should indicate
-their copyright solely in the commit message of the change when it is
-committed.
 
 LICENSE
 
@@ -40,6 +33,6 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 CONTRIBUTION AGREEMENT
 
-By contributing to the BVLC/caffe repository through pull-request, comment,
+By contributing to the repository through pull-request, comment,
 or otherwise, the contributor releases their content to the
 license and copyright terms herein.

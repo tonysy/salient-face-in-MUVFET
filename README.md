@@ -41,6 +41,14 @@ We think both training and test utilize the fixations of same subjects are not r
 - Matlab
 - Python 2.7
 
+## Pipeline
+```graphLR
+    A[Image] -->B(Face Detector)
+    B --> C[CNN]
+    C --> D[M-LSTM]
+    D --> E(PostProcessing)
+    E --> F[saliency map]
+```
 
 ## Experiments
 

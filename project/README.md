@@ -1,6 +1,6 @@
 # Predicting Salient Face in Multiple-face Videos
 ## Pipeline
-![Video_class](./src/img/pipeline.png)
+![Video_class](/src/img/pipeline.png)
 ## Project Structure
 
 - `project.m`
